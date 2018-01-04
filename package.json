@@ -1,0 +1,19 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "Toy project to learn react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Garnethil/ReactStarter.git"
+  },
+  "author": "Garnethil <g@cup-k.mx>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Garnethil/ReactStarter/issues"
+  },
+  "homepage": "https://github.com/Garnethil/ReactStarter#readme"
+}
