@@ -1,5 +1,5 @@
 {
-  "name": "react",
+  "name": "garnethil-react-starter",
   "version": "1.0.0",
   "description": "Toy project to learn react",
   "main": "index.js",
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/Garnethil/ReactStarter/issues"
   },
-  "homepage": "https://github.com/Garnethil/ReactStarter#readme"
+  "homepage": "https://github.com/Garnethil/ReactStarter#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1"
+  }
 }
