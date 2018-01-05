@@ -1,12 +1,10 @@
-import _ from 'lodash';
-
-function component() {
-    var element = document.createElement('div');
-  
-    // Lodash, now impoted by this script
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  
-    return element;
-  }
-  
-  document.body.appendChild(component());
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Counter from './Counter';
+ 
+document.addEventListener('DOMContentLoaded', function() {
+  ReactDOM.render(
+    React.createElement(Counter),
+    document.getElementById('root')
+  );
+});
