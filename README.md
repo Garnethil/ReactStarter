@@ -8,6 +8,17 @@ To start with I will be following this guide, although to be honest I will be tr
 
 I installed babel using --save-dev. This is the recommendation in the babel website and it makes more sense as it is a DevTool. Also I installed babel-cli instead of babel-core. I have no idea what's the differences but I'm following the babel website instead.
 
+# Setup
+---
+```
+npm install
+```
+
+# Compile
+---
+```
+npm run compile
+```
 
 # Random thigns I learned so far
 ## Node 
